@@ -8,5 +8,8 @@ Semua test case dalam repository ini menggunakan JUnit 5.
 
 ### Penjelasan Smell
 
+- [Bloaters](bloaters)
 - [Object-Orientation Abusers](oo_abusers)
+- [Change Preventers](change_preventers)
 - [Dispensables](dispensables)
+- [Couplers](couplers)
