@@ -18,13 +18,13 @@ Akan susah dibaca jika code tidak dibuat localization dan decomposition
 Modularization berlaku disemua paradigma bahasa pemgrograman, tapi karna **OOP maka modularization yang dimaksud adalah level class**.
 
 Ada 4 teknik untuk mencapai goal
-1. Localize related data and method ->
+1. Localize related data and method (Broken) ->
     ``Dimana data dan method dijadiin 1 (punya tanggung jawab yang sama``
-2. Decompose abstraction to manageable size ->
+2. Decompose abstraction to manageable size (Insufficient) ->
     ``Mecah abstraction yang gede menjadi kecil tapi jangan jadi terlalu kecil dan jangan terlalu kecil``  
-3. Create acyclic dependencies ->
+3. Create acyclic dependencies (Cyclic) ->
     `` Jangan buat class terlalu cyclic (hubungannya muter A->B->D->E->C->A)``
-4. Limit dependencies
+4. Limit dependencies (Hub like)
    ``Rendah terhadap fan-in dan fan-out`` 
 
         - Fan In
